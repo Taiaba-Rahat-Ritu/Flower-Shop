@@ -42,10 +42,12 @@
     
 }
 
+
 /*feature*/
 .feature{
     margin-top: 50px;
-
+    padding-left: 240px;
+    padding-right: 240px;
 }
 .tree{
     margin-top: 20px;
@@ -63,8 +65,9 @@
     border-radius: 300px 300px 0 0;
     height: 480px;
     width: 350px;
-    align-items: end;
-    justify-content: center;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
 }
 .tree-1{
     background-color: #FCEEF1; 
@@ -97,8 +100,87 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.icons{
+    width: 68%;
+    height: 300px;
+    background-color: #e7d1d6;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    margin-right: 240px;
+   
+}
+.icon{
+    margin-top: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.icon-text{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    color: gray;
+}
 .wel-color{
     color: #E55473;
+}
+
+.container2{
+    background-color:#FCEEF1;
+    display: flex;
+    padding-left: 250px;
+    margin-bottom: 20px;
+}
+.banner2a h1{
+    margin-bottom: 20px;
+}
+.banner2a p{
+    font-size: smaller;
+    color: gray;
+}
+.banner2a{
+    margin: 150px 90px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.banner2b{
+    margin-top: 70px;
+}
+.ban-img2{
+    width: 218px;
+height: 320px;
+flex-shrink: 0;
+}
+.subscribe-sec{
+    background-image: url(../Flower-Asset/Rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 240px;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+.deals{
+    padding: 90px 15px 0 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-div input{
+    height: 35px;
+    width: 500px;
+}
+footer{
+    margin-top: 100px;
 }
 footer div{
     color: white;
